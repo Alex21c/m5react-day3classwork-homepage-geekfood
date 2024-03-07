@@ -9,7 +9,7 @@ In this project, i will embark on the creative process of building a Home Page f
 
 ## How to install and run on yours local machine
 `npm install`
-`npm run`
+`npm run start`
 
 ## Tech. Stack Used:
 + [React](https://react.dev/)
