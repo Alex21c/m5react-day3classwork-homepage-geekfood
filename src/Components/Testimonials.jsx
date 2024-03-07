@@ -57,7 +57,7 @@ export default function Testimonials(){
   ];
 
   return(
-    <section className='grid grid-cols-3 gap-[2rem] p-[3rem] w-[80%] m-[auto] '>
+    <section id='Testimonials' className='grid grid-cols-3 gap-[2rem] p-[3rem] w-[80%] m-[auto] '>
       <h2 className='displayNone'>Testimonials</h2>
       
       {testimonailsData.map(

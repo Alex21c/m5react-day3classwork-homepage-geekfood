@@ -1,8 +1,8 @@
 import './Hero.css'
 export default function Main(){
   return (
-      <section className='heroSection relative'>
-        <div className='opacity-[.8] hover:opacity-[1] transition absolute top-[5rem] left-[5rem] w-[30rem] p-[3rem] bg-orange-400 text-center flex flex-col  gap-[1rem] rounded-md'>
+      <section id='hero' className='heroSection relative'>
+        <div id='letUsFindYourFood' className='opacity-[.8] hover:opacity-[1] transition absolute top-[5rem] left-[5rem] w-[30rem] p-[3rem] bg-orange-400 text-center flex flex-col  gap-[1rem] rounded-md'>
           <h2 className='flex flex-col leading-[2.8rem]'><span className='font-extrabold text-[2.5rem]'>Let us find your</span><span className='font-extrabold text-[2.5rem] text-red-600'>Forever Food.</span></h2>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!</p>
           <div className='flex gap-[.5rem] items-center justify-center'>

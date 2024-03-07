@@ -1,11 +1,11 @@
 import footerLogo from '../Assests/Images/footerLogo.png'
 export default function Footer(){
   return (
-    <footer class='flex flex-col gap-[1rem] items-center p-[2rem] bg-slate-100'>
+    <footer id='footer' class='flex flex-col gap-[1rem] items-center p-[2rem] bg-slate-100'>
       <div>
         <img src={footerLogo} alt="footer logo image" />
       </div>
-      <p className='text-slate-600 w-[25rem] text-center'>
+      <p className='loremParagraph text-slate-600 w-[25rem] text-center'>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa cum itaque neque.
       </p>
       <ul class='flex gap-[2rem] text-slate-600'>
@@ -28,12 +28,12 @@ export default function Footer(){
           <a href="#">Blog</a>
         </li>
       </ul>
-      <div class='flex gap-[2rem] text-[2rem] text-slate-600'>
-      <i className="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-github"></i>
-      <i class="fa-brands fa-dribbble"></i>
+      <div id='socialMediaIcons' className='flex gap-[2rem] text-[2rem] text-slate-600'>
+        <i className="fa-brands fa-facebook"></i>
+        <i className="fa-brands fa-instagram"></i>
+        <i className="fa-brands fa-twitter"></i>
+        <i className="fa-brands fa-github"></i>
+        <i className="fa-brands fa-dribbble"></i>
       </div>
     </footer>
   );

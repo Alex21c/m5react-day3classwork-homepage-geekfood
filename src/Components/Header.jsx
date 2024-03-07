@@ -1,7 +1,7 @@
 import logo from '.././Assests/Images/logo.png';
 function Header(){
   return (
-    <header className="flex items-center align-center justify-around bg-gray-900 text-white p-[1rem]">
+    <header id='header' className="flex items-center align-center justify-around bg-gray-900 text-white p-[1rem]">
       <div className='flex gap-[1rem] items-center align-center'>
         <div>
           <img src={logo}></img>
